@@ -1,0 +1,45 @@
+div { 
+  background:#ffccff;
+  margin:8px;
+  padding:5px;
+  width:100%;
+  img    
+}
+img {
+  width:100px;
+  height:auto;
+  display:block;
+  box-shadow:5px 5px #424242;
+  padding:10px; 
+  border-image-source: url("marco-200.png");
+  border-image-slice: 75;  
+}
+p {font-family: fantasy;
+font-style: normal;}
+.menu {
+  width:100%;
+  background:#424242;
+  list-style:none;
+  margin:0px;
+  padding:0px;  }
+.menu li {
+  display:inline-block;  }
+.menu li a {
+  display:inline-block;
+  color:#FFF;
+  padding: 10px 20px;  }
+.menu li a:hover {
+  background:#CCC;
+  color:#000;  }  
+table {
+  border:1px solid #ffccff; 
+  border-collapse:collapse;
+  width:75 px;  }
+table td {
+  border:1px solid #222222;
+  padding:10px;  }
+table td: hover {
+  background:#222222;
+  color:#FFF;  }
+table tr:hover {
+  background :#ffcccc;  }
